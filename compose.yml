@@ -1,10 +1,10 @@
 services:
   web:
     image: oven/bun:1
-    container_name: san-valentin-dev
+    container_name: flores-amarillas-dev
     working_dir: /app
     ports:
-      - "5173:5173"
+      - "8080:8080"
     volumes:
       - .:/app
       - /app/node_modules
