@@ -1,0 +1,13 @@
+node_modules
+dist
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+compose.yml
+README.md
+playwright-report
+test-results
+coverage
+.vscode
+.idea
